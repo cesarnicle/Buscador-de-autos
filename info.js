@@ -28,6 +28,6 @@ fetch("autos.json")
             <p>${marcaBuscada.information}</p>
             </div>`;
         }else{
-            contenedor.innerHTML=`<p>Ciudad no encontrada.</p>`;
+            contenedor.innerHTML=`<p>Auto no encontrado.</p>`;
         }
     }
